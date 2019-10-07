@@ -1,0 +1,2 @@
+zbar_opencv
+-DCATKIN_DEVEL_PREFIX=/home/kerry/zbar_opencv/devel -DCMAKE_INSTALL_PREFIX=/home/kerry/zbar_opencv/install -G Unix Makefiles

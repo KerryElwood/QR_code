@@ -1,0 +1,68 @@
+{
+	"folders": [
+		{
+			"path": "zbar_opencv"
+		},
+		{
+			"path": "/home/kerry/vins/src/VINS-Fusion/vins_estimator"
+		},
+		{
+			"path": "/home/kerry/vins_ap"
+		},
+		{
+			"path": "/home/kerry/irobot_test"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cctype": "cpp",
+			"cmath": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"atomic": "cpp",
+			"strstream": "cpp",
+			"chrono": "cpp",
+			"condition_variable": "cpp",
+			"cstdint": "cpp",
+			"initializer_list": "cpp",
+			"iosfwd": "cpp",
+			"mutex": "cpp",
+			"ratio": "cpp",
+			"system_error": "cpp",
+			"thread": "cpp",
+			"cinttypes": "cpp",
+			"typeindex": "cpp",
+			"array": "cpp",
+			"*.tcc": "cpp",
+			"clocale": "cpp",
+			"complex": "cpp",
+			"cwctype": "cpp",
+			"deque": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp",
+			"exception": "cpp",
+			"fstream": "cpp",
+			"functional": "cpp",
+			"iomanip": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"limits": "cpp",
+			"new": "cpp",
+			"ostream": "cpp",
+			"numeric": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"type_traits": "cpp",
+			"tuple": "cpp",
+			"typeinfo": "cpp",
+			"utility": "cpp",
+			"dense": "cpp"
+		}
+	}
+}

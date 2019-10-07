@@ -1,0 +1,8 @@
+prefix=/home/kerry/zbar_opencv/devel
+
+Name: zbar_opencv
+Description: Description of zbar_opencv
+Version: 0.3.6
+Cflags: -I/home/kerry/zbar_opencv/src/zbar_opencv/include
+Libs: -L/home/kerry/zbar_opencv/devel/lib 
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs
