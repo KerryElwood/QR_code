@@ -36,7 +36,8 @@ class ImageConverter
     double L;
     double length;
     //Camera parameter
-    Matrix3d K;
+    MatrixXd K;
+    Matrix3d Kn;
     Vector3d C1;
     Vector3d C2;
     Matrix3d R1;
@@ -49,7 +50,7 @@ class ImageConverter
     Vector3d campnt;
     
     
-    ImageConverter() : state(0),K(Matrix3d::Identity()),C1(Vector3d::Zero()),C2(Vector3d::Zero()),
+    ImageConverter() : state(0),K(MatrixXd::Zero(3,4)),Kn(Matrix3d::Zero()),C1(Vector3d::Zero()),C2(Vector3d::Zero()),
                        R1(Matrix3d::Identity()),R2(Matrix3d::Identity()),P3D(Vector3d::Zero()),P3DN(Vector3d::Zero()),theta_set(Vector3d::Zero()),
                        pic0pnts(Vector2d::Zero()),pic1pnts(Vector2d::Zero()),count(0),fx(0),fy(0),L(0.183),length(0),campnt(Vector3d::Zero())
     {
